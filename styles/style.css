@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+}
+
+
+
+.wrapper {
+    width: 492px;
+    height: 492px;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: 'b-01 b-02 b-03 b-04 b-05 b-06 b-07'
+                         'b-08 b-09 b-10 b-11 b-12 b-13 b-14'
+                         'b-15 b-16 b-17 b-18 b-19 b-20 b-21'
+                         'b-22 b-23 b-24 b-25 b-26 b-27 b-28'
+                         'b-29 b-30 b-31 b-32 b-33 b-34 b-35'
+                         'b-36 b-37 b-38 b-39 b-40 b-41 b-42'
+                         'b-43 b-44 b-45 b-46 b-47 b-48 b-49'
+;
+}
+
+.man, .right, .left, .up, .down {
+    width: 40px;
+    height: 85px;
+    background-image: url("../images/man-face.png");
+    position: relative;
+    bottom: 97px;
+    left: 14px;
+    transition: all .4s ease-in-out;
+
+}
+
+.right {
+    background-image: url("../images/man-goes-right.png");
+}
+
+.left {
+    background-image: url("../images/man-goes-left.png");
+}
+
+.up {
+    background-image: url("../images/mans-back.png");
+}
+
+.down {
+    background-image: url("../images/man-face.png");
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    width: 70px;
+    height: 70px;
+}
+
+.b-01 {
+    grid-area: b-01;
+}
+
+.b-02 {
+    grid-area: b-02;
+}
+
+.b-03 {
+    grid-area: b-03;
+}
+
+.b-04 {
+    grid-area: b-04;
+}
+
+.b-05 {
+    grid-area: b-05;
+}
+
+.b-06 {
+    grid-area: b-06;
+}
+
+.b-07 {
+    grid-area: b-07;
+}
+
+.b-08 {
+    grid-area: b-08;
+}
+
+.b-09 {
+    grid-area: b-09;
+}
+.b-10 {
+    grid-area: b-10;
+}
+
+.b-11 {
+    grid-area: b-11;
+}
+
+.b-12 {
+    grid-area: b-12;
+}
+
+.b-13 {
+    grid-area: b-13;
+}
+
+.b-14 {
+    grid-area: b-14;
+}
+
+.b-15 {
+    grid-area: b-15;
+}
+
+.b-16 {
+    grid-area: b-16;
+}
+.b-17 {
+    grid-area: b-17;
+}
+.b-18 {
+    grid-area: b-18;
+}
+.b-19 {
+    grid-area: b-19;
+}
+.b-20 {
+    grid-area: b-20;
+}
+.b-21 {
+    grid-area: b-21;
+}
+.b-22 {
+    grid-area: b-22;
+}
+.b-23 {
+    grid-area: b-23;
+}
+.b-24 {
+    grid-area: b-24;
+}
+.b-25 {
+    grid-area: b-25;
+}
+ .b-26 {
+     grid-area: b-26;
+ }
+.b-27 {
+    grid-area: b-27;
+}
+.b-28 {
+    grid-area: b-28;
+}
+.b-29 {
+    grid-area: b-29;
+}
+.b-30 {
+    grid-area: b-30;
+}
+.b-31 {
+    grid-area: b-31;
+}
+.b-32 {
+    grid-area: b-32;
+}
+.b-33 {
+    grid-area: b-33;
+}
+.b-34 {
+    grid-area: b-34;
+}
+.b-35 {
+    grid-area: b-35;
+}
+.b-36 {
+    grid-area: b-36;
+}
+.b-37 {
+    grid-area: b-37;
+}
+.b-38 {
+    grid-area: b-38;
+}
+.b-39 {
+    grid-area: b-39;
+}
+.b-40 {
+    grid-area: b-40;
+}
+.b-41 {
+    grid-area: b-41;
+}
+.b-42 {
+    grid-area: b-42;
+}
+.b-43 {
+    grid-area: b-43;
+}
+.b-44 {
+    grid-area: b-44;
+}
+.b-45 {
+    grid-area: b-45;
+}
+.b-46 {
+    grid-area: b-46;
+}
+.b-47 {
+    grid-area: b-47;
+}
+.b-48 {
+    grid-area: b-48;
+}
+
+.b-49 {
+    grid-area: b-49;
+}
